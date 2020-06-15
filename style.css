@@ -1,0 +1,116 @@
+body {
+	background-color: #F5F5F5;
+	margin: 0px;
+}
+
+.container {
+	width: 700px;
+	margin: auto;
+	padding:20px 50px;
+}
+
+
+H1{
+	font-family: Noto Serif;
+	color: #DA4167;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+H2{
+	font-family: Montserrat-light;
+	color: #20A4F3;
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 30px;
+
+}
+
+p{
+	font-family: Montserrat-light;
+	color: #3E3A41;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+li {
+    display: inline;
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+    float: center; 
+}
+
+
+ul{
+  list-style-type: none;
+  float: center; 
+  padding-left: 0px;
+}
+
+a {
+	font-family: Montserrat;
+	color: white;
+	transition: color 0.3s ease;
+	text-align: center;
+}
+
+
+.button {
+	background-color: #EAC435; 
+	color: white;
+	text-decoration: none;
+	padding: 3px 15px;
+	border-radius: 5px;
+}
+
+.button:hover{
+	background: #DEB317; 
+}
+
+
+.avatar {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-bottom: 0px;
+
+}
+
+.white-card {
+	background-color: white;
+	padding: 40px 60px;
+	margin: 20px 0px 20px 0px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	text-align: center;
+}
+
+.fab {
+	font-size: 40px;
+	color: #C3BEC6;
+	text-align: center;
+}
+
+.fab:hover{
+	color: #AFA8B3;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+   width: 70%;
+	padding: 0px 0px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0px;
+  }
+}
